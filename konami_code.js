@@ -15,7 +15,7 @@ function init() {
     else {
       index = 0;
     }
-  }
+  })
 }
   // Write your JavaScript code inside the init() function
 
