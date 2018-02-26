@@ -7,7 +7,7 @@ function init() {
     const key = parseInt(e.detail);
     if (key === code[index]) {
       index++;
-    if (index === code) {
+    if (index === code.length) {
       alert("WOOOHOOOO! You've got the code!")
       index = 0;
     }
@@ -16,6 +16,7 @@ function init() {
       index = 0;
     }
   }
+}
   // Write your JavaScript code inside the init() function
 
 }
